@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Exp1</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom Styles */
+        body {
+            background-image: url('img/01.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Header Styling */
+        .header-row {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-row img {
+            height: 50px;
+        }
+
+        .nav-links a {
+            color: #3399FF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        .nav-links a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Content Styling */
+        .content-row h1 {
+            font-size: 2.5em;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .content-row label,
+        .content-row select {
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .trading-info {
+            font-size: 1.1em;
+            color: white;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #007BFF;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- Row 1: Header -->
+        <div class="header-row d-flex justify-content-between align-items-center">
+            <img src="img/bull_logo.png" alt="Bull Logo">
+            <div class="nav-links">
+                <a href="index.html" class="text-uppercase">Bull runs</a>
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+            </div>
+        </div>
+
+        <!-- Row 2: Title and Dropdown -->
+        <div class="row content-row text-center mt-5">
+            <div class="col">
+                <h1>Company Expert in All Segments</h1>
+                <br>
+                <label for="language">Select Derivative:</label>
+                <select name="language" id="language" class="form-select w-auto d-inline-block ms-3 text-black">
+                    <option value="Equity">Equity</option>
+                    <option value="Options">Options</option>
+                    <option value="Futures" selected>Futures</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Row 3: Author Info -->
+        <div class="row content-row text-center mt-4">
+            <div class="col">
+                <p class="fs-4">This project is made by <strong>Jai - 31</strong></p>
+            </div>
+        </div>
+
+        <!-- Row 4: Trading Information -->
+        <div class="row content-row text-center mt-3">
+            <div class="col">
+                <p class="trading-info">
+                    Trading is a dynamic field where knowledge, strategy, and timing play crucial roles. In today’s
+                    fast-paced markets,
+                    traders need to be equipped with up-to-date information and tools to make informed decisions.
+                    Whether you are trading
+                    equities, options, or futures, understanding market trends and having a well-defined strategy can
+                    make all the difference
+                    in achieving success. Continuous learning and adapting to market conditions are key to staying ahead
+                    in the trading world.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at: <a href="mailto:contact@example.com">d2022.jai.navani@ves.ac.in</a></p>
+        <p>Phone: 123456789</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
